@@ -5,7 +5,7 @@ var number=0
 
 router.get('/', function(req, res, next) {
   number=number+1
-  res.send('The number of times User accessesed is : '+number);
+  res.send('The number of times User accessesed are : '+number);
 });
 
 module.exports = router;
